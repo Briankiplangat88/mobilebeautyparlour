@@ -33,3 +33,17 @@ body{
     background-color: #E12323;
     margin-bottom: 50px;
 }
+
+
+footer{
+    color: white;
+}
+ footer a{
+     color: white;
+ }
+
+
+.btn{
+    background-color: white;
+    color: black;
+}
