@@ -1,0 +1,22 @@
+body{
+    background-color: #ffd8e1;
+}
+
+.my_navbar{
+    background: #FFD8E1;
+    margin-left: -89px;
+    margin-right: -89px;
+    
+}
+
+.my_navbar ul li a{
+    color: black;
+}
+
+.my_navbar img{
+    margin-left: 60px;
+    font-weight: bold;
+}
+.my_navbar ul{
+    margin-right: 40px;
+}
