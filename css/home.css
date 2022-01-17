@@ -68,6 +68,9 @@ body{
     margin-bottom: 200px;
     
 }
+#form{
+    display: none;
+}
 
 
 
@@ -86,6 +89,7 @@ footer{
 #hair-dressor,#masseuse, #manicurist{
     display: none;
 }
+
 
 @media screen and (min-width:1024px) 
 and (min-device-width: 1200px) and 
