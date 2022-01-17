@@ -20,3 +20,16 @@ body{
 .my_navbar ul{
     margin-right: 40px;
 }
+.section-two{
+    background-image: url("images/parlour.jpg");
+    text-align: center;
+    margin-top: 150px;
+} 
+
+#orderBtn {
+    width: 150px;
+    border-radius: 10px;
+    border: none;
+    background-color: #E12323;
+    margin-bottom: 50px;
+}
