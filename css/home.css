@@ -1,5 +1,6 @@
 body{
     background-color: #ffd8e1;
+    overflow-x: hidden;
 }
 
 .my_navbar{
@@ -21,17 +22,24 @@ body{
     margin-right: 40px;
 }
 .section-two{
-    background-image: url("images/parlour.jpg");
     text-align: center;
-    margin-top: 150px;
+    margin-right: -85px;
 } 
+
+.section-two h1{
+    padding-top: 200px;
+}
+    
+ 
+
 
 #orderBtn {
     width: 150px;
     border-radius: 10px;
     border: none;
     background-color: #E12323;
-    margin-bottom: 50px;
+    margin-bottom: 200px;
+    
 }
 
 
