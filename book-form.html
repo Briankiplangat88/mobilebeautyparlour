@@ -13,7 +13,7 @@
     <script src="js/home.js"></script>
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
     <link rel="stylesheet" href="css/home.css">
-    <title>Mobile Beauty Parlour</title>
+    <title>Booking service</title>
 </head>
 
 <body>
@@ -41,64 +41,82 @@
                     </ul>
                 </nav>
 
-                <Div class="section-two "
-                    style="background-image: url('images/image.jpg' ); background-size: cover; margin-left: -80px; ">
-                    <h1>The Mobile Beauty Parlour</h1>
-                    <h2>Difference</h2>
-                    <h5>Look great. Feel Amaizing</h5>
-                    <button id="bookBtn"><a href="book-form.html"> Book Now</a></button>
 
+                <Div class="booking container">
+                    <form id="form">
+                        <form id="form" style="background-color: #E8E9EC;"> <br>
+   
+                            <h5>Welcome to Mobile Beauty Parlour </h5>
+                            <h5>Booking form</h5>
+                            <Div class="col-md-6">
+                                <div class="form-group">
+                                    <div class="form-group">
+                                        <label for="new-name">full Name</label>
+                                        <input type="text" class="form-control new-county">
+                                    </div>
+                                </div> <br>
+                                <label for="exampleFormControlTextarea1" class="form-label">choose service</label>
+                                <select class="form-select" aria-label="Default select example">
+                                    <option value="1">Hair dressing</option>
+                                    <option value="2">Massage</option>
+                                    <option value="3">Manicure/Pendicure</option>
+                                </select> <br>
+                                <label for="exampleFormControlTextarea1" class="form-label">Choose your time</label>
+                                <select class="form-select" aria-label="Default select example">
+                                    <option value="1">8am - 10am</option>
+                                    <option value="2">10am - 12noon</option>
+                                    <option value="3">2pm - 4pm</option>
+                                </select>
+                                <Div id="hair-dressor">
+                                    <label for="new-servicee">choose Your Hair dresser</label>
+                                    <select class="form-select" aria-label="Default select example">
+                                        <option value="1">Christine Nyawira</option>
+                                        <option value="2">Monica Ngitonga</option>
+                                        <option value="3">Beatrice Wambui</option>
+                                    </select>
+                                </Div>
+
+                                <Div id="masseuse">
+                                    <label for="new-servicee">choose Your masseuse/masseur </label>
+                                    <select class="form-select" aria-label="Default select example">
+                                        <option value="1">Winnie Kithome</option>
+                                        <option value="2">Daniel Otieno</option>
+                                        <option value="3">Elibora Kojwang</option>
+                                    </select>
+                                </Div>
+
+                                <Div id="manicurist">
+                                    <label for="new-servicee">choose Your manicurist </label>
+                                    <select class="form-select" aria-label="Default select example">
+                                        <option value="1">Winejoy Koome</option>
+                                        <option value="2">Deniver Denis</option>
+                                        <option value="3">Mathias Nzau </option>
+                                    </select>
+                                </Div>
+                                <br>
+
+                                <div id="new-addresses">
+                                    <div class="new-address">
+                                        <div class="form-group">
+                                            <label for="new-street">Street</label>
+                                            <input type="text" class="form-control new-street">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="new-city">City</label>
+                                            <input type="text" class="form-control new-city">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="new-county">County</label>
+                                            <input type="text" class="form-control new-county"> <br>
+                                        </div>
+                                    </div>
+                                </div>
+                            </Div>
+                            <button type="submit" id="book"> Book Now</button>
+                        </form>
                 </Div>
-                
 
-                <Div class="about container-fluid">
-                    <Div class=" txt container-fluid">
-                        <h5>About</h5>
-                        <p>Since 2000, we’ve been bringing bespoke beauty <br>
-                            services to San Francisco. We know that it’s not <br>
-                            always easy to find the time or money that allows you <br>
-                            to pamper yourself—which is why we offer quick and <br>
-                            high-quality treatments that won’t cost an arm and a <br>
-                            leg. We want to make sure you leave mobile beauty parlour <br>
-                            feeling more fabulous than when you arrived. So, sit back, <br>
-                            relax and let our skilled professional team take care of you. <br>
-                            Get in touch to find out more about what we offer or to book an appointment.</p>
-                    </Div>
-                    <Div class="container-fluid">
-                        <img class="img-fluid" src="images/parlour.jpg" alt="Responsive image">
-                    </Div>
-
-                </Div>
-                <Div class=" three container">
-                    <Div id="services">
-                        <h3>Services</h3>
-                    </Div>
-                    <Div class=" services row">
-                        <Div class="col-md-3" id="small">
-                            <img class="img-fluid" src="images/hair-dressing.jpg" id="cart" alt="Responsive image">
-                            <small id="caption-one"> Hair Dressing </small>
-                            <button style="margin-top: 20px;" id="bookBtn"><a href="book-form.html">Book Now</a> </button>
-
-                        </Div>
-                        <Div class="col-md-3" id="medium">
-                            <img class="img-fluid" src="images/massage.jpg" id="cart" alt="Responsive image">
-                            <small id="caption_two"> Massage </small>
-                            <button style="margin-top: 20px;" id="bookBtn"><a href="book-form.html">Book Now</a></button>
-
-                        </Div>
-                        <Div class="col-md-3" id="large">
-                            <img class="img-fluid" src="images/manicure.jpg" id="cart" alt="Responsive image">
-                            <small id="caption">Other services</small>
-                            <button style="margin-top: 20px;" id="bookBtn"><a href="book-form.html">Book Now</a></button>
-
-                        </Div>
-                    </Div>
-
-
-                </Div>
-
-
-
+               
                 <!-- Footer -->
                 <footer class="page-footer font-small mdb-color lighten-3 pt-4"
                     style="background-color: #E12323; margin-left: -85px; margin-right: -85px;">
