@@ -1,5 +1,5 @@
 body{
-    background-color: #ffd8e1;
+    background-color: white;
     overflow-x: hidden;
 }
 
@@ -36,13 +36,13 @@ body{
 }
 .about h5{
     margin-top: 100px;
-    background-color: #E12323;
+    background-color: #FFD8E1;
     padding: 10px;
 
 }
 .about p{
     margin-bottom: 100px;
-    background-color: #E12323;
+    background-color: #FFD8E1;
     margin-top: -10px;
     padding: 30px;
 }
@@ -64,7 +64,7 @@ body{
     width: 150px;
     border-radius: 10px;
     border: none;
-    background-color: #E12323;
+    background-color: #FFD8E1;
     margin-bottom: 200px;
     
 }
@@ -85,17 +85,18 @@ body{
 
 
 footer{
-    color: white;
+    color: black;
 }
  footer a{
-     color: white;
+     color: black;
      
  }
 
 
 .btn{
-    background-color: white;
-    color: black;
+background-color: black;
+    color:#FFD8E1 ;
+    border: none;
 }
 #hair-dressor,#masseuse, #manicurist{
     display: none;
