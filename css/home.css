@@ -81,6 +81,10 @@ body{
     text-decoration: none;
 }
 
+#label-one, #label-two, #label-three{
+    display: none;
+}
+
 
 
 
@@ -99,6 +103,9 @@ background-color: black;
     border: none;
 }
 #hair-dressor,#masseuse, #manicurist{
+    display: none;
+}
+#showDetails{
     display: none;
 }
 

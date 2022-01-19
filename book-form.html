@@ -27,7 +27,7 @@
                     </a>
                     <ul class="nav justify-content-end">
                         <li class="nav-item">
-                            <a class="nav-link active" href="#">Home</a>
+                            <a class="nav-link active" href="home.html">Home</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">About</a>
@@ -67,30 +67,30 @@
                                     <option value="2">10am - 12noon</option>
                                     <option value="3">2pm - 4pm</option>
                                 </select>
-                                <Div id="hair-dressor">
-                                    <label for="new-servicee">choose Your Hair dresser</label>
-                                    <select class="form-select" aria-label="Default select example">
-                                        <option value="1">Christine Nyawira</option>
-                                        <option value="2">Monica Ngitonga</option>
-                                        <option value="3">Beatrice Wambui</option>
+                                <Div >
+                                    <label id="label-one" for="new-servicee"> Your Hair dresser</label>
+                                    <select class="form-select" aria-label="Default select example" id="hair-dressor" >
+                                        <option value="Christine Nyawira">Christine Nyawira</option>
+                                        <option value="Monica Ngitonga">Monica Ngitonga</option>
+                                        <option value="Beatrice Wambui">Beatrice Wambui</option>
                                     </select>
                                 </Div>
 
-                                <Div id="masseuse">
-                                    <label for="new-servicee">choose Your masseuse/masseur </label>
-                                    <select class="form-select" aria-label="Default select example">
-                                        <option value="1">Winnie Kithome</option>
-                                        <option value="2">Daniel Otieno</option>
-                                        <option value="3">Elibora Kojwang</option>
+                                <Div >
+                                    <label id="label-two" for="new-servicee"> Your masseuse/masseur </label>
+                                    <select class="form-select" aria-label="Default select example" id="masseuse">
+                                        <option value="Winnie-kithome">Winnie Kithome</option>
+                                        <option value="Daniel Otieno">Daniel Otieno</option>
+                                        <option value="Elibora Kojwang">Elibora Kojwang</option>
                                     </select>
                                 </Div>
 
-                                <Div id="manicurist">
-                                    <label for="new-servicee">choose Your manicurist </label>
-                                    <select class="form-select" aria-label="Default select example">
-                                        <option value="1">Winejoy Koome</option>
-                                        <option value="2">Deniver Denis</option>
-                                        <option value="3">Mathias Nzau </option>
+                                <Div >
+                                    <label id="label-three" for="new-servicee"> Your manicurist </label>
+                                    <select class="form-select" aria-label="Default select example"  id="manicurist">
+                                        <option value="Winejoy Koome">Winejoy Koome</option>
+                                        <option value="Deniver Denis">Deniver Denis</option>
+                                        <option value="Mathias Nzau">Mathias Nzau </option>
                                     </select>
                                 </Div>
                                 <br>
@@ -112,8 +112,11 @@
                                     </div>
                                 </div>
                             </Div>
+                            <p id="showDetails"> you will be served by <span id="blank"></span> at your home in <span id="home"></span></p>
                             <button type="submit" id="book"> Book Now</button>
+                           
                         </form>
+                        
                 </Div>
 
                
