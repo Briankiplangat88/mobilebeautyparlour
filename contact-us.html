@@ -13,7 +13,7 @@
     <script src="js/home.js"></script>
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
     <link rel="stylesheet" href="css/home.css">
-    <title>Mobile Beauty Parlour</title>
+    <title>contact us</title>
 </head>
 
 <body>
@@ -21,7 +21,7 @@
         <Div class="row">
             <Div class="col-md-12">
                 <!-- navbar -->
-                <nav class="my_navbar navbar navbar-light ">
+                <nav class="my_navbar navbar navbar-light " style="background-color: #FFD8E1; margin-left: -85px; margin-right: -85px;">
                     <a class="navbar-brand" href="#">
                         <img src="images/logo.png" height="60" alt="">
                     </a>
@@ -41,65 +41,57 @@
                     </ul>
                 </nav>
 
-                <Div class="section-two "
-                    style="background-image: url('images/image.jpg' ); background-size: cover; margin-left: -80px; ">
-                    <h1>The Mobile Beauty Parlour</h1>
-                    <h2>Difference</h2>
-                    <h5>Look great. Feel Amaizing</h5>
-                    <button id="bookBtn"><a href="book-form.html"> Book Now</a></button>
-               
-
+                <Div class="container">
+                    <Div class="row">
+                        <Div class="contact col-md-12">
+                            <Div>
+                                <h1>contact us</h1>
+                                <form>
+                                    <div class="form-group">
+                                      <label for="exampleInputEmail1">Email address</label>
+                                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                                      <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                                    </div>
+                                    <div class="form-group">
+                                      <label for="exampleInputPassword1">Password</label>
+                                      <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                                    </div>
+                                    <div class="form-check">
+                                      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                      <label class="form-check-label" for="exampleCheck1">Accept the Terms of service</label>
+                                    </div>
+                                    <button type="submit" class="btn btn-primary">Submit</button>
+                                  </form>
+                            </Div>
+                            <Div >
+                                <Div >
+                                    <h5>Call Us</h5>
+                                    <p>+254 769 590 478</p>
+                                    <p>+254 708 586 036</p>
+                                </Div>
+                                <Div>
+                                    <h5>Location</h5>
+                                    <p>121 Muthaiga Nairobi</p>
+                                    <p>Kenya</p>
+                                </Div>
+                                <Div>
+                                    <h5>Our TopServices</h5>
+                                    <p>Hair Dressing</p>
+                                    <p>Massage</p>
+                                    <p>Pedicure</p>
+                                    <p>Manicure</p>
+                                </Div>
+                            </Div>
+                            <Div >
+                                <img src="images/beauty.jpg" class="img-fluid" alt="Responsive image">
+                            </Div>
+                        </Div>
+                    </Div>
                 </Div>
+
+
                 
-
-                <Div class="about container-fluid">
-                    <Div class=" txt container-fluid">
-                        <h5>About</h5>
-                        <p>Since 2000, we’ve been bringing bespoke beauty <br>
-                            services to San Francisco. We know that it’s not <br>
-                            always easy to find the time or money that allows you <br>
-                            to pamper yourself—which is why we offer quick and <br>
-                            high-quality treatments that won’t cost an arm and a <br>
-                            leg. We want to make sure you leave mobile beauty parlour <br>
-                            feeling more fabulous than when you arrived. So, sit back, <br>
-                            relax and let our skilled professional team take care of you. <br>
-                            Get in touch to find out more about what we offer or to book an appointment.</p>
-                    </Div>
-                    <Div class="container-fluid">
-                        <img class="img-fluid" src="images/parlour.jpg" alt="Responsive image">
-                    </Div>
-
-                </Div>
-                <Div class=" three container">
-                    <Div id="services">
-                        <h3>Services</h3>
-                    </Div>
-                    <Div class=" services row">
-                        <Div class="col-md-3" id="small">
-                            <img class="img-fluid" src="images/hair-dressing.jpg" id="cart" alt="Responsive image">
-                            <small id="caption-one"> Hair Dressing </small>
-                            <button style="margin-top: 20px;" id="bookBtn"><a href="book-form.html">Book Now</a> </button>
-
-                        </Div>
-                        <Div class="col-md-3" id="medium">
-                            <img class="img-fluid" src="images/massage.jpg" id="cart" alt="Responsive image">
-                            <small id="caption_two"> Massage </small>
-                            <button style="margin-top: 20px;" id="bookBtn"><a href="book-form.html">Book Now</a></button>
-
-                        </Div>
-                        <Div class="col-md-3" id="large">
-                            <img class="img-fluid" src="images/manicure.jpg" id="cart" alt="Responsive image">
-                            <small id="caption">Other services</small>
-                            <button style="margin-top: 20px;" id="bookBtn"><a href="book-form.html">Book Now</a></button>
-
-                        </Div>
-                    </Div>
-
-
-                </Div>
-
-
-
+               
                 <!-- Footer -->
                 <footer class="page-footer font-small mdb-color lighten-3 pt-4"
                     style="background-color: #FFD8E1; margin-left: -85px; margin-right: -85px;">
@@ -177,7 +169,7 @@
                                     to our Newsletter</label>
                                 <input type="email" class="form-control" id="exampleInputEmail1"
                                     aria-describedby="emailHelp" placeholder=" Enter your email here"
-                                    style="width: 190px;">
+                                    style="width: 190px;" required>
                                 <button style="margin-left: 190px; margin-top: -60px;" type="submit"
                                     class="btn btn-primary mb-2">Join</button>
 

@@ -84,6 +84,17 @@ body{
 #label-one, #label-two, #label-three{
     display: none;
 }
+.contact {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.my_navbar ul{
+    margin-right: 60px;
+}
+.my_navbar img{
+    margin-left: 80px;
+}
 
 
 
