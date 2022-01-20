@@ -10,3 +10,8 @@ body{
 .title{
     text-align: center;
 }
+.rightcontact{
+    /* margin:  2rem; */
+    float: right;
+    padding: 40px;
+    border-radius: 7rem;
