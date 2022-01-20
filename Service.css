@@ -1,0 +1,125 @@
+body{
+    overflow-x: hidden;
+}
+#ser{
+    text-align: center;
+    color:#485076 ;
+    margin-top: 30px;
+    font-style: italic;
+}
+
+.my_navbar{
+    background: #FFD8E1;
+    margin-left: -50px;
+    margin-right: -50px;
+    
+}
+
+.my_navbar ul li a{
+    color: black;
+}
+
+.my_navbar img{
+    margin-left: 60px;
+    font-weight: bold;
+}
+.my_navbar ul{
+    margin-right: 40px;
+}
+.page-footer{
+    background-color: #FFD8E1;
+}
+.desc{
+    color: #485076;
+    display: flex;
+    height: auto;
+}
+.desc-item{
+margin-left: 60px;
+margin-right: 50px;
+margin-top: 50px;
+}
+.desc-image{
+    margin-top: 50px;
+   
+}
+.desc-image img{
+    height: 350px;
+    width: 400px;
+}
+.desc-btn button{
+    background-color: #FFD8E1;
+    border-color: #FFD8E1;
+    border-radius: 30px;
+    padding: 10px;
+}
+.ped{
+    display: flex;
+    margin-top: 80px;
+    color: #485076;
+}
+.ped-image{
+    margin-right: 50px;
+    margin-left: 60px;
+}
+.ped-image img{
+    height: 350px;
+    width: 400px;
+}
+.fac{
+    display: flex;
+}
+.fac-item{
+    margin-left: 60px;
+    margin-right: 50px;
+    margin-top: 50px;
+    }
+.fac-image img{
+    height: 350px;
+    width: 400px;
+}
+.menulist{
+    display: flex;
+}
+.ul{
+    display: flex;
+}
+.ul li{
+    list-style: none;
+    margin: 5px;
+   
+}
+.ul li img{
+    height: 200px;
+    margin: 20px;
+    width: 200px;
+}
+.booking{
+    text-align: center;
+}
+#form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#label-one{
+    display: none;
+}
+#hair-dressor{
+    display: none;
+}
+#label-two{
+    display: none;
+}
+#masseuse{
+    display: none;
+}
+#label-three{
+    display: none;
+}
+#manicurist{
+    display: none;
+}
+button a{
+    text-decoration: none;
+}
