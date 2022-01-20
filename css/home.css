@@ -1,0 +1,129 @@
+body{
+    background-color: white;
+    overflow-x: hidden;
+}
+
+.my_navbar{
+    background: #FFD8E1;
+    margin-left: -89px;
+    margin-right: -89px;
+    
+}
+
+.my_navbar ul li a{
+    color: black;
+}
+
+.my_navbar img{
+    margin-left: 60px;
+    font-weight: bold;
+}
+.my_navbar ul{
+    margin-right: 40px;
+}
+.section-two{
+    text-align: center;
+    margin-right: -85px;
+} 
+
+.section-two h1{
+    padding-top: 200px;
+}
+
+.about{
+    display: flex;
+    
+}
+.about h5{
+    margin-top: 100px;
+    background-color: #FFD8E1;
+    padding: 10px;
+
+}
+.about p{
+    margin-bottom: 100px;
+    background-color: #FFD8E1;
+    margin-top: -10px;
+    padding: 30px;
+}
+.about img{
+    margin-top: 150px;
+    margin-left: -90px;
+    height: 50%;
+}
+.services{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+#services{
+    text-align: center;
+}
+
+#bookBtn ,#book{
+    width: 150px;
+    border-radius: 10px;
+    border: none;
+    background-color: #FFD8E1;
+    margin-bottom: 200px;
+    
+}
+.booking{
+    text-align: center;
+}
+#form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#bookBtn a{
+    color: black;
+    text-decoration: none;
+}
+
+#label-one, #label-two, #label-three{
+    display: none;
+}
+.contact {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.my_navbar ul{
+    margin-right: 60px;
+}
+.my_navbar img{
+    margin-left: 80px;
+}
+
+
+
+
+footer{
+    color: black;
+}
+ footer a{
+     color: black;
+     
+ }
+
+
+.btn{
+
+    color:#FFD8E1 ;
+    border: none;
+}
+#hair-dressor,#masseuse, #manicurist{
+    display: none;
+}
+#showDetails{
+    display: none;
+}
+
+
+@media screen and (min-width:1024px) 
+and (min-device-width: 1200px) and 
+(max-device-width: 1600px) and 
+(-webkit-min-device-pixel-ratio: 1){
+    
+}
