@@ -12,7 +12,8 @@ Mobile Beauty Parlour is a project that was made to practice Java Script, Bootst
 
 
 ## Screenshot
-![Website image]()
+![Website image](https://github.com/Briankiplangat88/mobilebeautyparlour/blob/booking-form/images/webpage.png)
+![Website image](https://github.com/Briankiplangat88/mobilebeautyparlour/blob/booking-form/images/webpage2.png)
 
 ## Live demo
  (https://briankiplangat88.github.io/mobilebeautyparlour/)
