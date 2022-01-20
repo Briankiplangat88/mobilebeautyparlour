@@ -28,7 +28,7 @@ Mobile Beauty Parlour is a project that was made to practice Java Script, Bootst
 - cd to your project folder
 - if you don't have a folder cd Documents and mkdir projects
 - cd myProject and write the command below to clone repository
-- git clone https://github.com/Sieva-cmd/pizza.git
+- git clone https://github.com/Briankiplangat88/mobilebeautyparlour.git
 - You can costomise the project now according to your needs
 
 
@@ -44,8 +44,8 @@ Mobile Beauty Parlour is a project that was made to practice Java Script, Bootst
 pizza is compatible with devices of all sizes and all OS's, and consistent improvements are being made.
 
 ## Installation
-Click on the link below to view the website https://github.com/Sieva-cmd/pizza.git
-
+Click on the link below to view the website 
+https://github.com/Briankiplangat88/mobilebeautyparlour.git
 ## Technologies used 
 -  HTML - used to build the structure of the website
 -  Css - used to style the pages
